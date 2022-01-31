@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: rgb(240, 235, 235);
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+p {
+    text-align: center;
+}
+div {
+    display: inline-block;
+}
+article {
+    width: 60px;
+    height: 400px;
+    margin: 20px;
+    background-color: rgb(202,198,192);
+}
+.bars {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+#bar1 {
+    height: 70%;
+    animation-name: bar1;
+}
+@keyframes bar1 {
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 70%;
+    }
+}
+#bar2 {
+    height: 60%;
+    animation-name: bar2;
+}
+@keyframes bar2 {
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 60%;
+    }
+}
+#bar3 {
+    height: 20%;
+    animation-name: bar3;
+}
+@keyframes bar3 {
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 20%;
+    }
+}
+h1 {
+    text-align: center;
+    margin: 30px;
+}
